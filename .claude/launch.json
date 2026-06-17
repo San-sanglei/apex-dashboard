@@ -4,8 +4,9 @@
     {
       "name": "APEX Dashboard",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["serve", ".", "--no-clipboard"],
-      "port": 8080
+      "runtimeArgs": ["rsbuild", "dev", "--port", "5173"],
+      "port": 5173,
+      "cwd": "D:\\Took\\new-api-main\\web\\default"
     }
   ]
 }
